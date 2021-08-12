@@ -1,7 +1,5 @@
 /*
-    Author: William Nwoke
-
-
+    Author: William
 */
 
 #include <iostream>
@@ -11,6 +9,7 @@ using namespace std;
 class Employee{
     private:
         int salary;
+
     public:
         void setSalary(int s){
             salary = s;
@@ -19,13 +18,11 @@ class Employee{
         int getSalary(){
             return salary;
         }
-
 };
 
 int main(){
     Employee myObj;
-    myObj.setSalary(50000);
-    cout << "$"<<myObj.getSalary()<< "\n";
 
-    return 0;
+    myObj.setSalary(50000);
+    cout << "$" << myObj.getSalary() <<"\n";
 }
